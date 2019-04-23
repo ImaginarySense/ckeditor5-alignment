@@ -35,5 +35,5 @@ export function isSupported( option ) {
  */
 export function isDefault( alignment ) {
 	// Right now only LTR is supported so the 'left' value is always the default one.
-	return alignment === 'left';
+	return alignment === 'center';
 }

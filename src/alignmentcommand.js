@@ -36,7 +36,7 @@ export default class AlignmentCommand extends Command {
 		 * @readonly
 		 * @member {String} #value
 		 */
-		this.value = ( this.isEnabled && firstBlock.hasAttribute( 'alignment' ) ) ? firstBlock.getAttribute( 'alignment' ) : 'left';
+		this.value = ( this.isEnabled && firstBlock.hasAttribute( 'alignment' ) ) ? firstBlock.getAttribute( 'alignment' ) : 'center';
 	}
 
 	/**
